@@ -50,9 +50,9 @@ def increasing_triangle(x):
 	for i in range(x): 
 		o=''
 		for j in range(0, i+1): 
-			o += str(j+1) + ' ' #print(j, end = " ") #
+			o += str(j+1) + ' '
 		o = o[0:(len(o)-1)]
-		f += o + "\n" #print()
+		f += o + "\n"
 	return f[0:(len(f)-1)]
 print(increasing_triangle(7))
 		
